@@ -1,6 +1,6 @@
 library identifier: 'jenkins-pipeline-demo-library@master', 
         retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/devopsabcs/jenkins-pipeline-demo-library.git'])
 
-crossPlatformBuild repoName: 'devopsabcs/pi-psod-pipelines',
+crossPlatformBuild repoName: 'msmobiusstrip/pi-psod-pipelines',
                    linuxContext: 'm4', 
                    windowsContext: 'm4'
